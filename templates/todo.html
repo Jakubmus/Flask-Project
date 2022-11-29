@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+</head>
+<body>
+    <h1>TODO APP</h1>
+    <form action="/add", method="post">
+        <div>
+            <label for="title">Zadanie</label>
+            <input type="text" name="title">
+            <button type="submit">Dodaj</button>
+        </div>
+    </form>
+
+    {% for todo in todo_list%}
+        <p> {{ todo.id }} -  {{ todo.title }}</p>
+        <a href="/delete/{{ todo.id }}">Usun</a>
+    {% endfor %}  
+</body>
+</html>
