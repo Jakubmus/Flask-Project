@@ -1,8 +1,10 @@
 # ToDoApp <br>
 ## Requirements: <br>
-- Docker-engine <br>
-- python <br>
-- pip
+* Docker-engine <br>
+* Python <br>
+* Pip
+* Flask
+* Flask_sqlalchemy
 
 ## Install: <br>
 1. Downoload app <br>
