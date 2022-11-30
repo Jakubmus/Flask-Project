@@ -1,8 +1,8 @@
 # ToDoApp <br>
 ## Requirements: <br>
--Docker-engine <br>
--python <br>
--pip
+- Docker-engine <br>
+- python <br>
+- pip
 
 ## Install: <br>
 1. Downoload app <br>
